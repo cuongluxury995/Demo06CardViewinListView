@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        app:cardCornerRadius="15dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:id="@+id/cardview"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:background="@drawable/bg1"
+            android:paddingBottom="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2">
+
+                    <ImageView
+                        android:layout_alignParentLeft="true"
+                        android:id="@+id/Imageview_Hinh"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/phanduyanh" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7">
+
+                    <TextView
+                        android:id="@+id/Textview_01"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="5dp"
+                        android:text="Phan Duy Anh"
+                        android:textColor="@color/colorwhile"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/Imageview_3cham"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/bacham" />
+
+                    <ImageView
+                        android:id="@+id/Imageview_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/Textview_01"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/home" />
+
+                    <TextView
+                        android:id="@+id/Textview_02"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/Textview_01"
+                        android:layout_marginTop="5dp"
+                        android:layout_toRightOf="@id/Imageview_icon"
+                        android:text="Việt Nam"
+                        android:textColor="@color/colorwhile"
+                        android:textSize="13dp" />
+
+                    <TextView
+                        android:id="@+id/textSubcribe"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/Imageview_icon"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Subcribe"
+                        android:textColor="@color/colorwhile" />
+
+                    <TextView
+                        android:id="@+id/textLike"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/Imageview_icon"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_toRightOf="@id/textSubcribe"
+                        android:text="Like"
+                        android:textColor="@color/colorwhile" />
+
+                    <TextView
+                        android:id="@+id/textFollow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/Imageview_icon"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_toRightOf="@id/textLike"
+                        android:text="Follow"
+                        android:textColor="@color/colorwhile" />
+
+                    <TextView
+                        android:id="@+id/textview_number1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/textSubcribe"
+                        android:layout_marginLeft="20dp"
+                        android:text="2345"
+                        android:textColor="@color/colorwhile" />
+
+                    <TextView
+                        android:id="@+id/textview_number2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/textLike"
+                        android:layout_marginLeft="92dp"
+                        android:text="1222"
+                        android:textColor="@color/colorwhile" />
+
+                    <TextView
+                        android:id="@+id/textview_number3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/textSubcribe"
+                        android:layout_marginLeft="160dp"
+                        android:text="335"
+                        android:textColor="@color/colorwhile" />
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
+
